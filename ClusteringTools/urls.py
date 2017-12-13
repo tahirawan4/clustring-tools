@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from clustring_tools.views import labeling, validations
+from clustering_tools.views import labeling, validations
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
